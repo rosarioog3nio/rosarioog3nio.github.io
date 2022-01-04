@@ -1,18 +1,324 @@
-<!DOCTYPE HTML>
-<html>
-	<head> 
-		<title> Rosario Fondo </title>
-	</head>
-	<body>
-		<p> I'm a minimalist, that's why this page looks like this!!!</p>
-		<p>My name is Rosario de Sousa Fondo, Machine Learning Engineer, Web3 entusiast, UI/UX and mobile develper, Oceanography Studant</p>
-		<p> Some of my works (unfinished): </p>  
-		<ul style="list-style-type:none">
-			<li><p><a href="https://fin-sl-dashb.herokuapp.com/" target="_blank" rel="noopener noreferrer"> Finance Dashboard</a></p></li>	
-			<li><p><a href="https://covid19-dashb.herokuapp.com/" target="_blank" rel="noopener noreferrer">Covid 19 Dashboard</a></p></li>
-		</ul>
-		<p><a href = "https://rosarioogenio.medium.com/" target="_blank" rel="noopener noreferrer"> My blog</a></p>
-		
-	
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Rosario Fondo | Machine Learning Engineer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>ROSARIO FONDO</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="https://rosarioogenio.medium.com/" target="_blank" class="nav-link">Blog</a></li>
+        <li><a href="assets/resume/Rosario_resume.pdf" target="_blank" class="nav-link">My Resume</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/Avatar.jpg"
+        alt="rosario-fondo"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          My name is Rosario de Sousa Fondo, Machine Learning Engineer, 
+          Web3 entusiast, UI/UX and mobile develper, Oceanography Studant
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+
+<!--      <h2>More About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+        autem deleniti cupiditate molestias quis unde quae totam porro dicta
+        iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+        nostrum dolor minus, libero delectus praesentium perferendis
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+        consequuntur labore? Ea totam voluptas amet!
+      </p>
+    </section>
+-->
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/python_4.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/tensorflow_2.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/pytorch_2.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/mysql_4.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/opencv_1.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="third-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/fin_dashboard.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Finance Dashboard</h3>
+          <p class="project-details">
+            Web application that allows user to visualize data 
+            of various financial assets, see the sentiment 
+            of the market around and make basic analysis
+            
+          </p>
+          <a href="https://fin-sl-dashb.herokuapp.com/" 
+          target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/COVID-19_Dashboard.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">COVID-19 Dashboard</h3>
+          <p class="project-details">
+            Web application that allows user to view the evolution
+            of the novel Corona Virus and visualize
+            some forecasts on its evolution
+          </p>
+          <a href="https://covid19-dashb.herokuapp.com/" 
+          target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/coming-soon.jpg"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+            width="727"
+            height="1365"
+          />
+          <h3 class="project-title">Txi E-wallet</h3>
+          <p class="project-details">
+            Digital wallet in development which will allow users to shop online,
+            make money transfer, buy, and sell crypto assets.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://twitter.com/rosario0g3nio" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://instagram.com/rosario0g3nio/" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/rosario-de-sousa-fondo" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/rosarioog3nio" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/rosarioog3nio" target="_blank"
+          >Rosario Fondo (rosarioog3nio)</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
