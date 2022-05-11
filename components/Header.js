@@ -15,26 +15,22 @@ class Header extends HTMLElement {
             <li class="menu-item"><a href="./index.html">home</a></li>
             <li class="menu-item"><a href="./about-me.html">about me</a></li>
             <li class="menu-item"><a href="./portfolio.html">portfolio</a></li>
-            <li class="menu-item"><a href="./blog.html">blog</a></li>
+            <li class="menu-item"><a href="https://rosarioogenio.medium.com">blog</a></li>
+            <li class="menu-item"><a href="./resume.pdf">resume/</a></li>
           </ul>
         </nav>
 
         <address class="contacts">
-          <a class="contact-item" title="Github" target="_blank" href="https://github.com/lincolixavier">
+          <a class="contact-item" title="Github" target="_blank" href="https://github.com/rosarioog3nio">
             <i class='bx bxl-github'></i>
           </a>
-          <a class="contact-item" title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/lincoli-xavier/">
+          <a class="contact-item" title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/https://www.linkedin.com/in/rosario-fondo//">
             <i class='bx bxl-linkedin-square' ></i>
           </a>
-          <a class="contact-item" title="Twitter" target="_blank"  href="https://twitter.com/lincolixavier">
+          <a class="contact-item" title="Twitter" target="_blank"  href="https://twitter.com/Rosario0g3nio">
             <i class='bx bxl-twitter' ></i>
-          </a>
-          <a class="contact-item" title="Youtube" href="mailto:jim@rock.com">
-            <i class='bx bxl-youtube' ></i>
-          </a>
-          <a class="contact-item" title="Instagram" href="https://instagram.com/lincolimonteiro">
-            <i class='bx bxl-instagram' ></i>
-          </a>
+          </a>   
+    
         </address>
       </header>
     `;
