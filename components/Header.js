@@ -24,7 +24,7 @@ class Header extends HTMLElement {
           <a class="contact-item" title="Github" target="_blank" href="https://github.com/rosarioog3nio">
             <i class='bx bxl-github'></i>
           </a>
-          <a class="contact-item" title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/https://www.linkedin.com/in/rosario-fondo//">
+          <a class="contact-item" title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/https://www.linkedin.com/in/rosario-fondo/">
             <i class='bx bxl-linkedin-square' ></i>
           </a>
           <a class="contact-item" title="Twitter" target="_blank"  href="https://twitter.com/Rosario0g3nio">
