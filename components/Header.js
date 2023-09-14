@@ -30,7 +30,11 @@ class Header extends HTMLElement {
           </a>
           <a class="contact-item" title="Twitter" target="_blank"  href="https://twitter.com/Rosario0g3nio">
             <i class='bx bxl-twitter' ></i>
-          </a>   
+          </a>
+          </a>
+          <a class="contact-item" title="Medium" target="_blank"  href="https://rosarioogenio.medium.com/">
+            <i class='bx bxl-medium' ></i>
+          </a>
     
         </address>
       </header>
