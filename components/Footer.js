@@ -10,7 +10,7 @@ class Footer extends HTMLElement {
           <i class='bx bx-envelope'></i>
         </a>
       </div>
-      <span class="footer-copy">&#169; All rights and lefts reserved. 2022.</span>
+      <span class="footer-copy">Rosario0g3nio &#169; All rights and lefts reserved. 2023.</span>
     </footer>
     `;
   }
