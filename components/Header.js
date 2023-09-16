@@ -12,10 +12,11 @@ class Header extends HTMLElement {
 
         <nav class="nav-container">
           <ul class="menu">
-            <li class="menu-item"><a href="./index.html">home</a></li>
-            <li class="menu-item"><a href="./about-me.html">about me</a></li>
-            <li class="menu-item"><a href="./portfolio.html">portfolio</a></li>
-            <li class="menu-item"><a href="./Rosario_Fondo_Resume.pdf">Resume</a></li>
+            <li class="menu-item"> title="Home" <a href="./index.html">home</a></li>
+            <li class="menu-item"> title="About Me" <a href="./about-me.html">about me</a></li>
+            <li class="menu-item"> title="C&I Portfollio" <a href="./portfolio.html">portfolio</a></li>
+            <li class="menu-item"> title="Resume" <a href="./Rosario_Fondo_Resume.pdf">Resume</a></li>
+            <li class="menu-item"> title="C&I Newsletter" target="_blank" <a href="https://rosarioogenio.gumroad.com/l/codeinteligence"</a></li>
           </ul>
         </nav>
 
