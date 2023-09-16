@@ -16,7 +16,7 @@ class Header extends HTMLElement {
             <li class="menu-item"> <a title="About Me" href="./about-me.html">about me</a></li>
             <li class="menu-item"> <a title="C&I Portfollio" href="./portfolio.html">portfolio</a></li>
             <li class="menu-item"> <a title="Resume" href="./Rosario_Fondo_Resume.pdf">Resume</a></li>
-            <li class="menu-item"> <a title="C&I Newsletter" target="_blank" href="https://rosarioogenio.gumroad.com/l/codeinteligence"</a></li>
+            <li class="menu-item"> <a title="C&I Newsletter" target="_blank" href="https://rosarioogenio.gumroad.com/l/codeinteligence">C&I Newsletter</a></li>
           </ul>
         </nav>
 
